@@ -1,18 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Cambo&family=Mukta:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cambo&family=Mukta:wght@500&family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cambo&family=Mukta:wght@500&display=swap');
+
 *{
     color: aliceblue;
 }
-.text{
-    font-size: 34px;
-
+.onboard_context .text{
+   height: 33vh;
+   font-size: 18px;
 }
-span{
-    font-family: 'Mukta', sans-serif;
-}.text h1{
+
+.text h1{
     font-weight: bolder;
+    font-size: 60px;
+    line-height: 59px;
+    
+}
+.pay{
+    margin-bottom: 10%;
+}
+.span{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 50px;
+    line-height: 59px;
 }
 .text p{
-    font-size: 23px;
     font-weight: lighter;
 }
 .onboard_wrapper{
@@ -20,6 +31,12 @@ span{
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+.get_btn button{
+    color: #2256f4;
+    padding: 13px 13px;
+    width: 44%;
+    font-size: 16px;
 }
 .onboard_box{
     background-color: aliceblue;
@@ -33,9 +50,7 @@ span{
     display: flex;
     justify-content: center;
 }
-.all_bills{
-   
-}
+
 .bills{
    display: flex;
    justify-content: space-evenly;

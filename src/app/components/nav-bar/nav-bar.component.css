@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Cambo&family=Mukta:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cambo&family=Mukta:wght@500&family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri&display=swap');
 .nav_bar{
     display: flex;
     align-items: center;
@@ -25,11 +26,16 @@
      margin-left: 2%;
      font-family: 'Cambo', serif;
  }
- 
+ .web_logo h1{
+    font-size: 35px;
+    font-family: 'El Messiri', sans-serif;
+
+ }
  .web_logo p{
      margin-top: -19%;
-     margin-left: 9%;
+     margin-left: 8%;
      font-weight: 100;
+     font-size: 12px;
  }
  .nav_links ul {
      color: #fff;
@@ -39,6 +45,8 @@
      justify-content: space-around;
      text-decoration: none;
      font-family: 'Mukta', sans-serif;
+     font-size: 17px;
+     margin-top: -5%;
  }
  .nav_links ul li{
      list-style: none;
